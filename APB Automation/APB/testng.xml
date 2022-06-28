@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IndusIndICollect Suite">
+
+	<listeners>
+		<listener class-name="com.INDUSIND.CustomListener.Listener"></listener>
+	</listeners>
+
+	<!-- <suite-files>
+		If you have more test suites, Please add them bellow.
+		<suite-file path="./AdminFlowETenderingModule.xml" />
+
+	</suite-files> -->
+	<suite-files>
+		<!-- If you have more test suites, Please add them bellow. -->
+		<suite-file path="./PayModuleFlow.xml" />
+
+	</suite-files>
+	
+	<suite-files>
+		<!-- If you have more test suites, Please add them bellow. -->
+		<suite-file path="./ETenderingModuleFlow.xml" />
+
+	</suite-files>
+	
+	<suite-files>
+		<!-- If you have more test suites, Please add them bellow. -->
+		<suite-file path="./ClientModuleFlow.xml" />
+
+	</suite-files>
+	
+	
+
+</suite>

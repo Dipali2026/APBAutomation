@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.APB.TestPages.Login.TC_ID_001">
+        <methods>
+          <include name="TC_ID_001Test" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"/>
+          <include name="reporterDataResults"/>
+          <include name="teardown"/>
+          <include name="checkCaseToRun"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.APB.TestPages.Login.TC_ID_001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

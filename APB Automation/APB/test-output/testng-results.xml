@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 3 seconds...]]>
+    </line>
+    <line>
+      <![CDATA[waiting for 3 seconds...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-28T07:27:42Z" name="Default suite" finished-at="2022-06-28T07:27:52Z" duration-ms="10161">
+    <groups>
+    </groups>
+    <test started-at="2022-06-28T07:27:42Z" name="Default test" finished-at="2022-06-28T07:27:52Z" duration-ms="10161">
+      <class name="com.APB.TestPages.Login.TC_ID_001">
+        <test-method is-config="true" signature="checkSuiteToRun()[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:41Z" name="checkSuiteToRun" finished-at="2022-06-28T12:57:42Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method is-config="true" signature="checkCaseToRun()[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:42Z" name="checkCaseToRun" finished-at="2022-06-28T12:57:45Z" duration-ms="3764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method signature="TC_ID_001Test(java.lang.String)[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:45Z" name="TC_ID_001Test" data-provider="TC_ID_001Data" finished-at="2022-06-28T12:57:49Z" duration-ms="3224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jagamca.cs@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 3 seconds...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ID_001Test -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:49Z" name="reporterDataResults" finished-at="2022-06-28T12:57:49Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method signature="TC_ID_001Test(java.lang.String)[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:49Z" name="TC_ID_001Test" data-provider="TC_ID_001Data" finished-at="2022-06-28T12:57:52Z" duration-ms="3129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jagamca.cs@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for 3 seconds...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ID_001Test -->
+        <test-method is-config="true" signature="reporterDataResults()[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:52Z" name="reporterDataResults" finished-at="2022-06-28T12:57:52Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.APB.TestPages.Login.TC_ID_001@7776ab]" started-at="2022-06-28T12:57:52Z" name="teardown" finished-at="2022-06-28T12:57:52Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.APB.TestPages.Login.TC_ID_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

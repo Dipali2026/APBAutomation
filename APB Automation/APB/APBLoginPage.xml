@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="INDPay Module">
+
+If add more test cases In this suite, You need to add them as bellow.
+
+<listeners>
+		<listener class-name="com.APB.CustomListener.Listener"></listener>
+	</listeners>
+
+<test name="TC_ID_001">
+    <classes>
+        <class name="com.APB.TestPages.Login.TC_ID_001" ></class>  
+    </classes>
+</test>
+
+<test name="TC_ID_002">
+    <classes>
+        <class name="com.INDUSIND.TestPages.INDPayModule.TC_ID_002" ></class>  
+    </classes>
+</test>
+
+<test name="TC_ID_003">
+    <classes>
+        <class name="com.INDUSIND.TestPages.INDPayModule.TC_ID_003" ></class>  
+    </classes>
+</test>
+
+<test name="TC_ID_004">
+    <classes>
+        <class name="com.INDUSIND.TestPages.INDPayModule.TC_ID_004" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
+
